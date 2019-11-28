@@ -41,6 +41,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:4200',
+    'https://fight-scheduler.herokuapp.com/flights',
 ]
 
 ROOT_URLCONF = 'flightscheduler.urls'

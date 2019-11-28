@@ -1,1 +1,1 @@
-web: gunicorn stocker.wsgi --log-file -
+web: gunicorn flightscheduler.wsgi --log-file -
