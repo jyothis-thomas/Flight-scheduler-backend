@@ -11,7 +11,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'jmx=l)&+aa141**^t2oge=v$rl7paba@d&zw#11j3oq*7bo7*0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -41,7 +41,8 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:4200',
-    'https://fight-scheduler.herokuapp.com/flights',
+    'https://fight-scheduler.herokuapp.com',
+    'https://flight-schedules-app.herokuapp.com',
 ]
 
 ROOT_URLCONF = 'flightscheduler.urls'
@@ -116,4 +117,4 @@ STATIC_URL = '/static/'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
