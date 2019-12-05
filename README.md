@@ -1,0 +1,1 @@
+This is The backend of flight-scheduler-app which uses DRF backend to send the Flight data and Angular front-end to display the data as a single page app. Please use the Backend with the frontend in https://github.com/jyothis-thomas/Flight-scheduler-backend.git
